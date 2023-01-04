@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroud="#010725"
+    android:background="#050715"
+    android:orientation="vertical"
+    tools:context=".DashboardActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+
+        android:layout_height="40dp"
+        android:background="#10173A">
+
+
+        <ImageView
+            android:id="@+id/returnbutton"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/returnbutton"
+            android:backgroundTint="@color/white"
+            app:tint="@color/white" />
+
+        <TextView
+            android:id="@+id/exit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:text="Exit"
+            android:textColor="@color/white"
+
+            android:textSize="20dp" />
+
+    </RelativeLayout>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginRight="7dp"
+        app:cardCornerRadius="10dp">
+
+        <TextView
+            android:id="@+id/card_question"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/app_name"
+            android:textColor="@color/black" />
+
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardoptiona"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginRight="12dp"
+        app:cardCornerRadius="5dp">
+
+        <Button
+            android:id="@+id/card_optiona"
+            android:layout_width="match_parent"
+            android:layout_height="67dp"
+            android:layout_gravity="center"
+            android:text="OptionA"
+            android:textColor="@color/white" />
+
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardoptionb"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginRight="12dp"
+        app:cardCornerRadius="5dp">
+
+        <Button
+            android:id="@+id/card_optionb"
+            android:layout_width="match_parent"
+            android:layout_height="67dp"
+            android:layout_gravity="center"
+            android:text="OptionB"
+            android:textColor="@color/white" />
+
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardoptionc"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginRight="12dp"
+        app:cardCornerRadius="5dp">
+
+        <Button
+            android:id="@+id/card_optionc"
+            android:layout_width="match_parent"
+            android:layout_height="67dp"
+            android:layout_gravity="center"
+            android:text="OptionC"
+            android:textColor="@color/white" />
+
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardoptiond"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginRight="12dp"
+        app:cardCornerRadius="5dp">
+
+        <Button
+            android:id="@+id/card_optiond"
+            android:layout_width="match_parent"
+            android:layout_height="67dp"
+            android:layout_gravity="center"
+            android:text="OptionD"
+            android:textColor="@color/white" />
+
+    </androidx.cardview.widget.CardView>
+
+
+    <Button
+        android:id="@+id/next_btn"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginRight="35dp"
+        android:background="@drawable/next_btn_shape"
+        android:gravity="center">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="NEXT"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="25dp" />
+
+
+    </Button>
+
+</LinearLayout>
